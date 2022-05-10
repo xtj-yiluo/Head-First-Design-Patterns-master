@@ -1,0 +1,29 @@
+target/
+logs/
+*.log
+!.mvn/wrapper/maven-wrapper.jar
+bower_components
+node_modules
+.sonar/
+.scannerwork/
+
+### Eclipse ###
+.classpath
+.project
+.settings
+.externalToolBuilders
+.bpmn
+.metadata/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+sogaa-web.iml
+sonar-project.properties
+/bin/
+/src/main/webapp/client/dist/
+rebel.xml
+# Project exclude paths
+/out/
